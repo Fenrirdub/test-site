@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Edu TAS Beginner");
+* {
+    font-family: 'Edu TAS Beginner' ;
+}
+
+body {
+      margin: 0 auto; 
+    background: url('../img/lightmode/fondlight.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* tete */
+header {
+    display: flex;
+    align-items: center;
+}
+/* menu de navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 400px;
+    margin-left: 30px;
+    padding: 25px;
+}
+
+
+nav li {
+    display: inline-block;
+    margin-left: 16px;
+    text-align: center;
+    color: white;
+    background-color: aquamarine;
+    border-radius: 12px;
+    font-size: 36px;
+    position: sticky;
+    
+}
+
+.big-title {
+    color: grey;
+    font-size: 80px;
+    padding: 20px 50px;
+}
+
+nav li:hover {
+    background-color: blueviolet;
+}
+
+
+.bee {
+    position: absolute;
+    height: 50px;
+    margin-top: 75px;
+
+}
+
+
+nav li .bee:hover {
+    visibility: visible;
+}
+
+.article {
+    background-color: gray ;
+    height: 650px;
+    width: 700px;
+    opacity: 85%;
+    margin-left: 600px;
+    border-radius: 10%;
+    
+}
+.article h1 {
+    color: white;
+    text-align: center;
+    text-shadow: black;
+    
+}
+
+.article h2 {
+    color: white;
+    text-justify: auto;
+    text-align: center;
+
+}
+/* n'arrive pas a grossir le texte */
+.article h3 {
+    color: white;
+    text-justify: auto;
+    text-decoration: solid;
+    margin: 45px;
+    
+
+
+
+}
+/* n'arrive pas a deplacer limage au centre */
+.enfants {
+    
+   height: 391px;
+   background: no-repeat;
+   border-radius: 10%;
+   
+   
+   
+}
+
+/* test */
+/* @media (prefers-color-scheme: dark){
+    body {
+       background: #000;
+    }
+ } */
+
+/* scroll */
+/* .DivWithScroll{
+    height:120px;
+    overflow:scroll;
+    overflow-x:hidden;
+} */
+
+

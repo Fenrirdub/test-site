@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Edu TAS Beginner");
+* {
+    font-family: 'Edu TAS Beginner' ;
+}
+
+body {
+      margin: 0 auto; 
+    background-color: rgb(66, 126, 82);
+    background-size: cover;
+}
+/* tete */
+header {
+    display: flex;
+    align-items: center;
+}
+/* menu de navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 400px;
+    margin-left: 30px;
+    padding: 25px;
+}
+
+
+nav li {
+    display: inline-block;
+    margin-left: 16px;
+    text-align: center;
+    color: white;
+    background-color: aquamarine;
+    border-radius: 12px;
+    font-size: 36px;
+  
+    
+}
+
+.big-title {
+    color: white;
+    font-size: 80px;
+    padding: 20px 50px;
+}
+
+nav li:hover {
+    background-color: blueviolet;
+}
+
+
+.bee {
+    position: absolute;
+    height: 50px;
+    margin-top: 75px;
+
+}
+
+
+nav li .bee:hover {
+    visibility: visible;
+}
+
+.article {
+    background-color: black;
+    height: 4000px;
+    width: 900px;
+    opacity: 85%;
+    border-radius: 1%;
+    margin: 10px auto;
+
+
+}
+
+.article h1 {
+    color: white;
+    text-align: center;
+}
+
+.article h2 {
+    color: white;
+    text-align:left;
+}
+
+.Potager-enfants {
+    height: 643px;
+    margin: 10px auto;
+}
